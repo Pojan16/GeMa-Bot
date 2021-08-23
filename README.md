@@ -2,8 +2,8 @@
 
 Simple WhatsApp Bot
 
-
 [![Zeroz04n](https://github.com/Pojan16.png?size=100)](https://github.com/Pojan16)
+|----|
 [`Zeroz04n`](https://github.com/Pojan16)
 
 <a href="https://github.com/Pojan16/GeMa-Bot/network/members"><img title="Forks" src="https://img.shields.io/github/forks/Pojan16/GeMa-Bot?label=Forks&color=blue&style=flat-square"></a>
@@ -15,7 +15,6 @@ Simple WhatsApp Bot
 <a href="https://github.com/Pojan16/GeMa-Bot/pulls"><img title="Pull Request" src="https://img.shields.io/github/issues-pr/Pojan16/GeMa-Bot?label=PullRequest&color=success&style=flat-square"></a>
 <a href="https://github.com/Pojan16/GeMa-Bot/pulls?q=is%3Apr+is%3Aclosed"><img title="Pull Request" src="https://img.shields.io/github/issues-pr-closed/Pojan16/GeMa-Bot?label=PullRequest&color=red&style=flat-square"></a>
 
-
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Pojan16/GeMa-Bot)
 
 ## FOR TERMUX/UBUNTU/SSH USER
@@ -26,6 +25,41 @@ apt install git -y
 apt install nodejs -y
 apt install ffmpeg -y
 apt install imagemagick -y
+git clone https://github.com/Pojan16/GeMa-Bot
+cd GeMa-Bot
+npm install
+npm update
+```
+
+## INSTALL ON TERMUX WITH UBUNTU
+
+[ INSTALLING UBUNTU ]
+
+```bash
+apt update && apt full-upgrade
+apt install wget curl git proot-distro
+proot-distro install ubuntu
+echo "proot-distro login ubuntu" > $PREFIX/bin/ubuntu
+ubuntu
+```
+---------
+
+[ INSTALLING REQUIRED PACKAGES ]
+
+```bash
+ubuntu
+apt update && apt full-upgrade
+apt install wget curl git ffmpeg imagemagick build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev dbus-x11 ffmpeg2theora ffmpegfs ffmpegthumbnailer ffmpegthumbnailer-dbg ffmpegthumbs libavcodec-dev libavcodec-extra libavcodec-extra58 libavdevice-dev libavdevice58 libavfilter-dev libavfilter-extra libavfilter-extra7 libavformat-dev libavformat58 libavifile-0.7-bin libavifile-0.7-common libavifile-0.7c2 libavresample-dev libavresample4 libavutil-dev libavutil56 libpostproc-dev libpostproc55 graphicsmagick graphicsmagick-dbg graphicsmagick-imagemagick-compat graphicsmagick-libmagick-dev-compat groff imagemagick-6.q16hdri imagemagick-common libchart-gnuplot-perl libgraphics-magick-perl libgraphicsmagick++-q16-12 libgraphicsmagick++1-dev
+```
+
+---------
+
+[ INSTALLING NODEJS & GeMa-Bot ]
+
+```bash
+ubuntu
+curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+apt install -y nodejs gcc g++ make
 git clone https://github.com/Pojan16/GeMa-Bot
 cd GeMa-Bot
 npm install
@@ -160,12 +194,13 @@ conn.logger.level = 'debug'
 [`Ftwrr`](https://github.com/Ftwrr)
 [`RCO47`](https://github.com/RCO47)
 
-and other Contributors
+and other Contributors in [`wabot-aq`](https://github.com/Nurutomo/wabot-aq)
 
 ---------
 
 ### Powered by XTEAM
 <a href="https://api.xteam.xyz"><img src="https://i.ibb.co/7j0vtwz/xlogo.png" width="100" height="100"></a>
+|----|
 [XTEAM](https://api.xteam.xyz/)
 
 
