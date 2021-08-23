@@ -1,4 +1,6 @@
-let handler = async m => m.reply(`
+let handler = async (m, { conn }) => {
+let pp = './src/donasi.png'
+let donate = `
 ╭─「 Donasi • Pulsa 」
 │ • Axis [083122808260]
 │ • Indosat [085856430321]
@@ -15,8 +17,10 @@ let handler = async m => m.reply(`
 │ • Pembayaran tentang donasi bot!
 ╰────
 Ngetik Doang Donasinya Mana?
-`.trim()) // Tambah sendiri kalo mau
-handler.help = ['donasi Halo sultan:)']
+`.trim() // Tambah sendiri kalo mau
+conn.send2Button(m.chat, pp, 'pp.jpg', donate, 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal', m)
+
+handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
 
