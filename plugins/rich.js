@@ -7,15 +7,15 @@ Ical Mamonto | Donate
 
 Aditya Candra | Donate
 
-Satritama | Sewa
+Satritama | Rental
 
 Nelbi yufi | Premium
 
-Fahri | Sewa
+Fahri | Rental
 
 Gusti | Donate
 
-Shyees | Sewa
+Shyees | Rental
 
 Ahmad Zulfikar | Supporter
 
