@@ -19,7 +19,7 @@ let donate = `
 Ngetik Doang Donasinya Mana?
 `.trim() // Tambah sendiri kalo mau
 await m.reply(pp, 'pp.jpg')
-conn.send2Button(m.chat, donate, 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal')
+conn.send2Button(m.chat, donate, 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal', m)
 }
 handler.help = ['donasi']
 handler.tags = ['info']
