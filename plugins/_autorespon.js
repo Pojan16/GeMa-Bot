@@ -2,7 +2,6 @@ let fs = require('fs')
 let handler = m => m
 
 handler.all = async function (m) {
-  if (isBlocked) return
   let setting = global.db.data.settings
 
     // kalo kena tag
