@@ -146,9 +146,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       if (!/[01]/.test(command)) throw `
 [ Opsi Chat: ]
 
-- ${isOwner ? '- delete\n- document\n- public\n- whitelistmycontacts\n- jadibot\n- restrict\n- nyimak\n- autoread\n- pconly\n- gconly\n- swonly' : ''}
-- welcome✅
-- detect✅
+${isOwner ? '- delete\n- document\n- public\n- whitelistmycontacts\n- jadibot\n- restrict\n- nyimak\n- autoread\n- pconly\n- gconly\n- swonly' : ''}
+- welcome
+- detect
 - antilink
 - antivirtex
 - autolevelup
