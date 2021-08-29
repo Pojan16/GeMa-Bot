@@ -7,6 +7,7 @@ module.exports = Object.assign(async function handler(m, { text }) {
     delete sticker[hash]
     m.reply(`Done!`)
 }, {
+    rowner: true,
     help: ['cmd'].map(v => 'del' + v + ' <list>'),
     tags: ['nganu'],
     command: ['delcmd']
