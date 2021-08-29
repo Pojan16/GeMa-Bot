@@ -17,5 +17,6 @@ module.exports = Object.assign(async function handler(m, { text }) {
 }, {
     help: ['cmd'].map(v => 'set' + v + ' <perintah>'),
     tags: ['nganu'],
-    command: ['setcmd']
+    command: ['setcmd'],
+    owner: true
 })
