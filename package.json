@@ -1,6 +1,6 @@
 {
   "name": "gemabot",
-  "version": "3.5.2",
+  "version": "2.5.7",
   "description": "Customizable WhatsApp Bot",
   "depecrated": false,
   "main": "index.js",
