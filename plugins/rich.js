@@ -1,25 +1,15 @@
 //ucapan terima kasih
 let handler = async (m, { conn, usedPrefix: _p }) => {
 let rich = `
-Ikky Prasz | Donate
+Name | Donate
 
-Ical Mamonto | Donate
+Name | Rental
 
-Aditya Candra | Donate
+Name | Premium
 
-Satritama | Rental
+Name | Supporter
 
-Nelbi yufi | Premium
-
-Fahri | Rental
-
-Gusti | Donate
-
-Shyees | Rental
-
-Ahmad Zulfikar | Supporter
-
-Wahyu Hilber | Partner
+Name | Partner
 
 and other...
 `.trim()
