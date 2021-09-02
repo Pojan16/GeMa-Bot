@@ -7,9 +7,6 @@ let info = `
 │ 
 ├ *「 dipersembahkan oleh: 」*
 │ mi.com
-│ Biskuit Roma
-│ Kampung Roti
-│ Ysari
 ├───────────────────
 ├ *「 disponsori oleh: 」*
 │ android.com
