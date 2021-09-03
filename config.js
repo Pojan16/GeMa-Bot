@@ -16,7 +16,7 @@ global.APIKeys = { // APIKey Here
   'https://zahirr-web.herokuapp.com': 'zahirgans',
   'https://api.zeks.xyz': 'apivinz',
   'https://pencarikode.xyz': 'pais',
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ'
 }
 // Sticker WM
 global.packname = 'gємα вσт from'
