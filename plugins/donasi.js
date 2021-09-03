@@ -1,5 +1,4 @@
 let handler = async (m, { conn }) => {
-let pp = './src/donasi.png'
 let donate = `
 ╭─「 Donasi • Pulsa 」
 │ • Axis [083122808260]
@@ -16,10 +15,9 @@ let donate = `
 │ • #owner untuk mengetahui info
 │ • Pembayaran tentang donasi bot!
 ╰────
-Ngetik Doang Donasinya Mana?
+Baca Doang Donasinya Mana? :v
 `.trim() // Tambah sendiri kalo mau
-await m.reply(pp, 'pp.jpg')
-conn.send2Button(m.chat, donate, 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal', m)
+conn.send2ButtonImg(m.chat, donate, './src/donasi.png', 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal', m)
 }
 handler.help = ['donasi']
 handler.tags = ['info']
