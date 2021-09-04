@@ -16,6 +16,6 @@ let handler = (m, { conn, usedPrefix, command, args}) => {
     }
 }
 handler.command = new RegExp
-handler.register = true
+handler.register = null
 //buatan ozan sendiri ngap
 module.exports = handler
