@@ -1,4 +1,7 @@
+let fetch = require ('node-fetch')
 let handler = async (m, { conn }) => {
+/*let thumb = './src/donasi.png'*/ // Ini hapus aja:v
+let thumb = 'https://telegra.ph/file/01d53669c14ecfc440a73.jpg'
 let donate = `
 ╭─「 Donasi • Pulsa 」
 │ • Axis [083122808260]
@@ -16,8 +19,8 @@ let donate = `
 │ • Pembayaran tentang donasi bot!
 ╰────
 Baca Doang Donasinya Mana? :v
-`.trim() // Tambah sendiri kalo mau
-conn.send2ButtonImg(m.chat, donate, './src/donasi.png', 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal', m)
+`.trim() // Gak tau pengen beli rumah:v
+conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), donate, 'Donasi gak akan buatmu miskin kawan:)', 'IYA INSYAALLAH', '/mention Tapi Yaudalah Gue Biarin', 'NGGAK', '/mention Halah Dajjal', m, true)
 }
 handler.help = ['donasi']
 handler.tags = ['info']
