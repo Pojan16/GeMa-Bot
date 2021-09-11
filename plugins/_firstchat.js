@@ -14,7 +14,7 @@ handler.all = async function (m) {
 \`\`\`Silahkan tekan tombol dibawah\`\`\`
 
 \`\`\`Matikan pesan sementara, agar tombol dapat ditekan!\`\`\`
-`.trim(), '© GeMa-Bot | have argio.dev', 'MENU', '/menu', 'DONASI', '/donate')
+`.trim(), '© GeMa-Bot | have ozan', 'MENU', '/menu', 'DONASI', '/donate')
     users.pc = new Date * 1
 }
 
