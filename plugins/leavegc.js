@@ -22,7 +22,7 @@ let handler = async (m, { conn, args, command }) => {
     
 handler.help = ['gc', 'gcall', 'group'].map(v => 'left' + v)
 handler.tags = ['group']
-handler.command = /^leftg(c|ro?up)(all|semua)?$/i
+handler.command = /^leaveg(c|ro?up)(all|semua)?$/i
 
 handler.rowner = true
 
