@@ -62,4 +62,4 @@ handler.command = /^(ref(eral)?)$/i
 handler.register = true
 handler.limit = true
 
-module.coinorts = handler
+module.exports = handler
