@@ -13,5 +13,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 handler.help = ['gif [convert to gif]']
 handler.tags = ['sticker']
 handler.command = /^gif$/i
+handler.register = true
 
 module.exports = handler
