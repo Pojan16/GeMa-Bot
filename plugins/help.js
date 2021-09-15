@@ -3,7 +3,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
 let zan = `
 *[SIMPLE WHATSAPP BOT]*
 
-//New feature, Anonymous chat is on the #menu!
+//New feature, Anonymous chat is on the _${_p}menu!_
 
 => *${_p}help* | *${_p}menu*
 ➥ Untuk Melihat Semua Menu!
@@ -44,19 +44,19 @@ let zan = `
 => *${_p}spin*
 ➥ Untuk Jackpot!
 
-=> *${_p}asahotak* _(Features Using Apikey)_
+=> *${_p}asahotak* _(Features Using API)_
 ➥ Untuk Asah Otak!
 
-=> *${_p}family100* _(Features Using Apikey)_
+=> *${_p}family100* _(Features Using API)_
 ➥ Untuk Permainan Pertanyaan!
 
-=> *${_p}siapakahaku* _(Features Using Apikey)_
+=> *${_p}siapakahaku* _(Features Using API)_
 ➥ Untuk Tebak tebakan!
 
-=> *${_p}tebakgambar* _(Features Using Apikey)_
+=> *${_p}tebakgambar* _(Features Using API)_
 ➥ Untuk Tebak gambar!
 
-=> *${_p}tebakakata* _(Features Using Apikey)_
+=> *${_p}tebakakata* _(Features Using API)_
 ➥ Untuk Tebak kata!
 
 => *${_p}tictactoe*
