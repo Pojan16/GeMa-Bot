@@ -426,7 +426,7 @@ global.dfail = (type, m, conn) => {
     owner: '```Perintah ini hanya dapat digunakan oleh``` *Pilot Bot Ini!*',
     mods: '```Perintah ini hanya dapat digunakan oleh``` *Moderator Bot Ini!*',
     premium: 'Perintah ini hanya untuk member *Premium!*\n_Upgrade ke *Premium* agar bebas dari menu Premium!_\n\nHubungi _wa.me/6285856430321_ untuk upgrade ke Premium!',
-    group: '```Perintah ini hanya dapat digunakan``` *di Group Chat!*',
+    group: '```Perintah ini hanya dapat digunakan``` *di Group Chat!*\nhttps://chat.whatsapp.com/L0k6LTaMWtpHlhSf2Nsm7D',
     private: '```Perintah ini hanya dapat digunakan``` *di Pribadi Chat!*',
     admin: '```Perintah ini hanya untuk``` *Admin* ```Group!```',
     botAdmin: '```Jadikan Bot sebagai``` *Admin* ```untuk menggunakan perintah ini!```',
