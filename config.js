@@ -1,3 +1,6 @@
+let fs = require('fs')
+let chalk = require('chalk')
+
 global.owner = ['6285856430321','6283122808260','994400964426'] // Put your number here
 global.mods = [''] // Want some help?
 global.prems = [''] // Premium user has unlimited limit
